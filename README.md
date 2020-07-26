@@ -18,3 +18,9 @@ run_analysis.R performs the data preparation and then followed by the 5 steps re
 
 6. FinalData.txt is the exported final data after going through all the sequences described above.
 
+
+CodeBook.md
+A code book that describes the variables, the data, and transformations used to tidy the data.
+
+FinalData
+A text file containing the tidied data set. In order to view the data in R please use the following script: read.table("FinalData.txt", header=TRUE)
